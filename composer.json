@@ -1,0 +1,19 @@
+{
+    "name": "setsuna-/libido",
+    "description": "General purpose PHP library that I do, hence the name.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandre Henriet",
+            "email": "alex.henriet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
