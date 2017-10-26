@@ -2,7 +2,7 @@
 
 namespace Libido\FsRegistry;
 
-class RegistryException extends \Exception
+class ForkerException extends \Exception
 {
     
 }

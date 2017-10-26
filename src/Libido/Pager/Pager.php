@@ -81,7 +81,7 @@ class Pager
      */
     public function getLastPage()
     {
-        return (int) (($this->nbEntries + $this->itemsPerPage - 1) / $this->itemsPerPage);
+        return (int)(($this->nbEntries + $this->itemsPerPage - 1) / $this->itemsPerPage);
     }
 
     /**
@@ -89,7 +89,7 @@ class Pager
      */
     public function getOffset()
     {
-        $offset = ($this->page - 1) * ($this->itemsPerPage );
+        $offset = ($this->page - 1) * ($this->itemsPerPage);
         return ($offset < 0) ? 0 : $offset;
     }
 
