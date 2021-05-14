@@ -14,11 +14,11 @@ Via composer
     "repositories": [
       {
         "type": "vcs",
-        "url": "https://github.com/setsuna-/libido.git"
+        "url": "https://github.com/alexhenriet/libido.git"
       }
     ],
     "require": {
-      "setsuna-/libido": "dev-master"
+      "alexhenriet/libido": "dev-master"
     }
 }
 ```
